@@ -110,6 +110,7 @@
     ```typescript
     function saudar(nome: string): string {
         return `O// Importação do módulo readline-sync para entrada de dados
+```ts
 import readline from 'readline-sync';
 
 function exercicio1() {
@@ -313,12 +314,12 @@ function menu() {
 }
 
 menu();
-
+```
 
 **7. Salve e Compile o Código TypeScript:**
 
 No terminal
-npm i --save-dev @types/node
+`npm i --save-dev @types/node`
 Ele irá salvar seu código
 
 *   No terminal integrado do VS Code, execute o compilador TypeScript:
