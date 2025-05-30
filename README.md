@@ -110,7 +110,7 @@
     ```typescript
     function saudar(nome: string): string {
         return `O// Importação do módulo readline-sync para entrada de dados
-import readline from 'readline-sync';
+```import readline from 'readline-sync';
 
 function exercicio1() {
   const a = readline.questionInt('Digite o primeiro número: ');
@@ -314,7 +314,7 @@ function menu() {
 
 menu();
 
-
+```
 **7. Salve e Compile o Código TypeScript:**
 
 No terminal
